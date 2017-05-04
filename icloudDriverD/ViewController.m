@@ -71,6 +71,7 @@
 #pragma UIDocumentPickerDelegate
 - (void)documentPicker:(UIDocumentPickerViewController *)controller didPickDocumentAtURL:(NSURL *)url
 {
+    //老老实实劳斯莱斯了算了算了
     NSLog(@"select url : %@",url);
     if (controller.documentPickerMode == UIDocumentPickerModeOpen) {
         [self openFile:url];
